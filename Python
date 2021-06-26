@@ -8,7 +8,7 @@ def game(user_choice):
 
     comp_score=0
 
-    computer_choice=random.choice(lst1)
+    computer_choice=random.choice(list1)
 
     print("\n Your choice:",user_choice,"\nComputer's choice:",computer_choice)
 
@@ -22,13 +22,13 @@ def game(user_choice):
 
             print("Rock smashes scissors! You win!")
 
-            user_mark+=1
+            user_score+=1
 
         else:
 
             print("Paper covers rock! You lose.")
 
-            comp_mark+=1
+            comp_score+=1
 
     elif user_choice == "paper":
 
@@ -36,13 +36,13 @@ def game(user_choice):
 
             print("Paper covers rock! You win!")
 
-            user_mark++1
+            user_score+=1
 
         else:
 
             print("Scissors cuts paper! You lose.")
 
-            comp_mark=comp_mark+1
+            comp_score=comp_score+1
 
     elif user_choice == "scissors":
 
@@ -50,7 +50,7 @@ def game(user_choice):
 
             print("Scissors cuts paper! You win!")
 
-            user_mark+=1
+            user_score+=1
 
         else:
 
