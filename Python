@@ -16,7 +16,7 @@ def game(user_choice):
 
         print("Both players selected",user_choice,". It's a tie!")
 
-    elseif user_choice == "rock":
+    elif user_choice == "rock":
 
         if computer_choice == "scissors":
 
@@ -30,7 +30,7 @@ def game(user_choice):
 
             comp_mark+=1
 
-    elseif user_choice == "paper":
+    elif user_choice == "paper":
 
         if computer_choice == "rock":
 
@@ -44,7 +44,7 @@ def game(user_choice):
 
             comp_mark=comp_mark+1
 
-    elseif user_choice == "scissors":
+    elif user_choice == "scissors":
 
         if computer_choice == "paper":
 
